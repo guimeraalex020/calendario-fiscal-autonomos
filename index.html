@@ -20,7 +20,7 @@ h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.12;margin:14px 0 10px;font-w
 .ev input{width:22px;height:22px;accent-color:var(--pri)}.d{text-align:center;background:var(--pri2);border-radius:10px;padding:4px;font-weight:800;color:var(--pri);line-height:1.1}.d small{display:block;font-size:.7rem;font-weight:600}
 .t{font-weight:700}.s{color:var(--mut);font-size:.86rem}.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:99px;background:#eef2ff;color:#4338ca;margin-left:6px}.tag.o{background:#fef3c7;color:#92400e}
 .note{background:#fff8eb;border-left:4px solid var(--acc);padding:12px 14px;border-radius:8px;font-size:.9rem}
-h2{font-size:1.45rem;margin-top:0}.cards3{display:grid;gap:16px}@media(min-width:760px){.cards3{grid-template-columns:repeat(3,1fr)}}.cards3 a{color:inherit;text-decoration:none}.cards3 .card:hover{border-color:var(--pri)}
+h2{font-size:1.45rem;margin-top:0}.cards3{display:grid;gap:16px}@media(min-width:760px){.cards3{grid-template-columns:repeat(2,1fr)}}@media(min-width:980px){.cards3{grid-template-columns:repeat(4,1fr)}}.cards3 a{color:inherit;text-decoration:none}.cards3 .card:hover{border-color:var(--pri)}
 table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{border-bottom:1px solid var(--bd);padding:8px;text-align:left}
 details{border-bottom:1px solid var(--bd);padding:12px 0}summary{font-weight:600;cursor:pointer}
 .ad-slot:empty{display:none}.ad-slot{margin:20px 0;min-height:90px}footer{color:var(--mut);font-size:.85rem;padding:30px 0}a{color:var(--pri)}
@@ -30,7 +30,8 @@ details{border-bottom:1px solid var(--bd);padding:12px 0}summary{font-weight:600
 {"@type":"Question","name":"¿Cuándo se presenta el modelo 303 en 2026?","acceptedAnswer":{"@type":"Answer","text":"Del 1 al 20 de abril (1T), julio (2T) y octubre (3T). El 4T de 2025 se presentó del 1 al 30 de enero de 2026, junto con el resumen anual 390."}},
 {"@type":"Question","name":"¿Cuándo se presenta el modelo 130 en 2026?","acceptedAnswer":{"@type":"Answer","text":"Del 1 al 20 de abril, julio y octubre, y el 4T del 1 al 30 de enero. Si domicilias el pago, el plazo termina antes: el día 15 (27 de enero para el 4T)."}},
 {"@type":"Question","name":"¿Qué pasa si presento fuera de plazo?","acceptedAnswer":{"@type":"Answer","text":"Si lo presentas voluntariamente sin requerimiento hay recargos del 1% más un 1% por mes de retraso (hasta 12 meses), y a partir de ahí 15% más intereses. Con requerimiento de Hacienda puede haber sanción."}},
-{"@type":"Question","name":"¿Todos los autónomos presentan el modelo 111?","acceptedAnswer":{"@type":"Answer","text":"No. Solo si pagas a trabajadores o profesionales con retención. El 115 solo si alquilas un local con retención."}}]}</script>
+{"@type":"Question","name":"¿Todos los autónomos presentan el modelo 111?","acceptedAnswer":{"@type":"Answer","text":"No. Solo si pagas a trabajadores o profesionales con retención. El 115 solo si alquilas un local con retención."}},
+{"@type":"Question","name":"¿Cuándo se presentan el 303 y el 130 del 4º trimestre 2026?","acceptedAnswer":{"@type":"Answer","text":"En enero de 2027. Tope habitual el 30 de enero; en 2027, al caer en sábado, suele pasar al 1 de febrero. Con domiciliación, alrededor del 27 de enero. Las retenciones 111/115 del 4T van hasta el 20 de enero."}}]}</script>
 </head><body>
 <header class="hero"><div class="wrap"><span class="badge">📅 Actualizado con el calendario AEAT 2026</span>
 <h1>Calendario fiscal del autónomo 2026</h1><p>Todas las fechas de Hacienda en un solo sitio: modelos 303, 130, 111, 115, 390, 347 y Renta. Marca lo que ya has presentado y no se te pase ningún plazo.</p></div></header>
@@ -44,11 +45,15 @@ details{border-bottom:1px solid var(--bd);padding:12px 0}summary{font-weight:600
 <button class="btn" id="rs">Reiniciar checklist</button>
 </section>
 <div class="ad-slot" id="ad-1"></div>
+<section class="card" style="border-color:#f59e0b;background:#fffbeb"><h2 style="margin-top:0">⏳ Próximo pico: 4º trimestre → enero 2027</h2>
+<p>En noviembre y diciembre conviene cerrar facturas y gastos del 4T. En enero coinciden <b>303, 130, 390 y retenciones</b>.</p>
+<p><a href="plazos-4t-enero.html" style="font-weight:700">Ver plazos 4T y checklist de preparación →</a></p></section>
 <section class="card"><h2>Resumen por trimestre</h2><table><tr><th>Modelo</th><th>1T</th><th>2T</th><th>3T</th><th>4T</th></tr>
 <tr><td>303 IVA</td><td>20 abr</td><td>20 jul</td><td>20 oct</td><td>30 ene*</td></tr>
 <tr><td>130 IRPF</td><td>20 abr</td><td>20 jul</td><td>20 oct</td><td>30 ene*</td></tr>
 <tr><td>111 / 115</td><td>20 abr</td><td>20 jul</td><td>20 oct</td><td>20 ene*</td></tr></table><p class="s">* del año siguiente. Si domicilias, el plazo acaba el día 15 (27 de enero para 303/130 del 4T).</p></section>
 <section><h2>Guías rápidas</h2><div class="cards3">
+<a href="plazos-4t-enero.html"><div class="card"><b>Plazos 4T → enero 2027</b><p class="s">303, 130, 390 y retenciones: fechas y checklist nov–dic.</p></div></a>
 <a href="modelo-303.html"><div class="card"><b>Modelo 303 (IVA)</b><p class="s">Qué es, quién lo presenta, plazos y errores típicos.</p></div></a>
 <a href="modelo-130.html"><div class="card"><b>Modelo 130 (IRPF)</b><p class="s">El pago fraccionado del 20 % y cuándo no tienes que presentarlo.</p></div></a>
 <a href="alta-autonomo.html"><div class="card"><b>Cómo darse de alta de autónomo</b><p class="s">Modelo 036/037, RETA y cuota 2026 paso a paso.</p></div></a></div></section>
@@ -58,6 +63,7 @@ details{border-bottom:1px solid var(--bd);padding:12px 0}summary{font-weight:600
 <details><summary>¿Cuándo se presenta el modelo 130 en 2026?</summary><p>Del 1 al 20 de abril, julio y octubre, y el 4T hasta el 30 de enero. Domiciliando, hasta el 15 (27 de enero).</p></details>
 <details><summary>¿Qué pasa si presento fuera de plazo?</summary><p>Recargo del 1 % + 1 % por mes completo de retraso sin requerimiento previo; más de 12 meses, 15 % más intereses.</p></details>
 <details><summary>¿Todos los autónomos presentan el modelo 111?</summary><p>No, solo si practicas retenciones a trabajadores o profesionales. El 115, si alquilas local con retención.</p></details>
+<details><summary>¿Cuándo se presentan el 303 y el 130 del 4º trimestre 2026?</summary><p>En enero de 2027 (tope orientativo 1 de febrero al caer el 30 en sábado). Con domiciliación, ~27 de enero. Guía: <a href="plazos-4t-enero.html">plazos 4T y checklist</a>.</p></details>
 </section></main>
 <footer class="wrap">Información orientativa, no sustituye a un asesor fiscal. · <a href="privacy.html">Privacidad</a> · Más herramientas: <a href="https://guimeraalex020.github.io/calculadora-baja-laboral/">baja laboral</a>, <a href="https://guimeraalex020.github.io/calculadora-finiquito/">finiquito</a>, <a href="https://guimeraalex020.github.io/generador-reclamaciones/">reclamaciones</a></footer>
 <script>
